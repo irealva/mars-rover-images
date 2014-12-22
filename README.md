@@ -6,13 +6,17 @@ The archive can be found here: http://mars.jpl.nasa.gov/msl/multimedia/raw/?s=#/
 
 getPics.sh is the main program, but it calls on getDynamicHTML.py to retrieve a dynamically rendered HTML page for each Sol.
 
+Requiremenst
+-------
+* Python
+* Selenium
+* ChromeDriver: https://code.google.com/p/selenium/wiki/ChromeDriver
+
 Getting Started
 -------
 Before you run the script, you need to change the path to chromedriver in the getDynamicHTML.py file:
     
     browser = webdriver.Chrome('path to chromedriver') 
-
-You can find chromedriver here: https://code.google.com/p/selenium/wiki/ChromeDriver
 
 Use
 -------
