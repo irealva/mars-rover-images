@@ -9,9 +9,11 @@ Use
 getPics.sh is the main program, but it calls on getDynamicHTML.py to retrieve a dynamically rendered HTML page for each Sol.
 
 To run the script:
+
     sh getPics.sh <starting sol number> <ending sol number>
   
 Example - getting all images from Sol #1 to Sol #6:
+
     sh getPics.sh 1 6
 
 Output
