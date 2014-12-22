@@ -4,11 +4,19 @@ mars-rover-images
 getPics.sh is a script that downloads raw images from the Mars Curiosity Rover archive. The images are organized by Sol (a Martian solar day. 
 The archive can be found here: http://mars.jpl.nasa.gov/msl/multimedia/raw/?s=#/?slide=845
 
-Use
--------
 getPics.sh is the main program, but it calls on getDynamicHTML.py to retrieve a dynamically rendered HTML page for each Sol.
 
-To run the script:
+Getting Started
+-------
+Before you run the script, you need to change the path to chromedriver in the getDynamicHTML.py file:
+    
+    browser = webdriver.Chrome('path to chromedriver') 
+
+You can find chromedriver here: https://code.google.com/p/selenium/wiki/ChromeDriver
+
+Use
+-------
+Then, to run the script:
 
     sh getPics.sh <starting sol number> <ending sol number>
   
