@@ -12,7 +12,7 @@ from selenium import webdriver
 import time  
 
 # Opening a browser using selenium
-browser = webdriver.Chrome('/Users/ire/Desktop/chromedriver') 
+browser = webdriver.Chrome('path to chromedriver') 
 print "Browser open..."
 
 solStart = int(sys.argv[1])  
